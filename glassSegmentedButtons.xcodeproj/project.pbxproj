@@ -20,6 +20,8 @@
 		3820201E15E88A51000153E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38201FFF15E88A50000153E5 /* Foundation.framework */; };
 		3820202615E88A51000153E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3820202415E88A51000153E5 /* InfoPlist.strings */; };
 		3820202915E88A51000153E5 /* glassSegmentedButtonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3820202815E88A51000153E5 /* glassSegmentedButtonsTests.m */; };
+		3820203615E88A84000153E5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3820203515E88A84000153E5 /* QuartzCore.framework */; };
+		3820203715E88B2B000153E5 /* SegmentedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3820203215E88A74000153E5 /* SegmentedButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,9 @@
 		3820202515E88A51000153E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3820202715E88A51000153E5 /* glassSegmentedButtonsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glassSegmentedButtonsTests.h; sourceTree = "<group>"; };
 		3820202815E88A51000153E5 /* glassSegmentedButtonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = glassSegmentedButtonsTests.m; sourceTree = "<group>"; };
+		3820203215E88A74000153E5 /* SegmentedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedButton.m; sourceTree = "<group>"; };
+		3820203315E88A74000153E5 /* SegmentedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedButton.h; sourceTree = "<group>"; };
+		3820203515E88A84000153E5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3820203615E88A84000153E5 /* QuartzCore.framework in Frameworks */,
 				38201FFE15E88A50000153E5 /* UIKit.framework in Frameworks */,
 				3820200015E88A50000153E5 /* Foundation.framework in Frameworks */,
 				3820200215E88A50000153E5 /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +106,7 @@
 		38201FFC15E88A50000153E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3820203515E88A84000153E5 /* QuartzCore.framework */,
 				38201FFD15E88A50000153E5 /* UIKit.framework */,
 				38201FFF15E88A50000153E5 /* Foundation.framework */,
 				3820200115E88A50000153E5 /* CoreGraphics.framework */,
@@ -116,6 +123,8 @@
 				3820200F15E88A51000153E5 /* MainStoryboard.storyboard */,
 				3820201215E88A51000153E5 /* ViewController.h */,
 				3820201315E88A51000153E5 /* ViewController.m */,
+				3820203215E88A74000153E5 /* SegmentedButton.m */,
+				3820203315E88A74000153E5 /* SegmentedButton.h */,
 				3820200415E88A51000153E5 /* Supporting Files */,
 			);
 			path = glassSegmentedButtons;
@@ -261,6 +270,7 @@
 				3820200A15E88A51000153E5 /* main.m in Sources */,
 				3820200E15E88A51000153E5 /* AppDelegate.m in Sources */,
 				3820201415E88A51000153E5 /* ViewController.m in Sources */,
+				3820203715E88B2B000153E5 /* SegmentedButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +375,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "glassSegmentedButtons/glassSegmentedButtons-Prefix.pch";
 				INFOPLIST_FILE = "glassSegmentedButtons/glassSegmentedButtons-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

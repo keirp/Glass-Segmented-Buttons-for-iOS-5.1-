@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SegmentedButton.h"
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet SegmentedButton *segmentedButtonView;
 
 @end
