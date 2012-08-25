@@ -20,10 +20,10 @@
 - (void)viewDidLoad
 {
     [segmentedButtonView initWithTitles:[NSArray arrayWithObjects:@"1", @"2", @"3", @"4", @"5", nil] buttonTintNormal:[UIColor colorWithWhite:.9 alpha:1] buttonTintPressed:[UIColor colorWithWhite:.8 alpha:1] actionHandler:^(int buttonIndex) {
-        NSLog(@"%i", buttonIndex);
+        NSLog(@"Button pressed at index %i", buttonIndex);
     }];
     [imageSegmentedButton initWithImages:[NSArray arrayWithObjects:[UIImage imageNamed:@"settings"], [UIImage imageNamed:@"settings"], [UIImage imageNamed:@"settings"], [UIImage imageNamed:@"settings"], nil] buttonTintNormal:[UIColor colorWithWhite:.9 alpha:1] buttonTintPressed:[UIColor colorWithWhite:.8 alpha:1] actionHandler:^(int buttonIndex) {
-        NSLog(@"%i", buttonIndex);
+        NSLog(@"Button pressed at index %i", buttonIndex);
     }];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.

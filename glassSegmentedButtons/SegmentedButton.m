@@ -67,7 +67,6 @@
         [buttons addObject:newButton];
         buttonBackgroundColorForStateNormal = backgroundColorNormal;
         buttonBackgroundColorForStatePressed = backgroundColorPressed;
-        NSLog(@"adding button");
     }
     self.layer.cornerRadius = 10;
     self.layer.borderColor = [UIColor colorWithWhite:.6 alpha:1].CGColor;
@@ -116,7 +115,6 @@
         [buttons addObject:newButton];
         buttonBackgroundColorForStateNormal = backgroundColorNormal;
         buttonBackgroundColorForStatePressed = backgroundColorPressed;
-        NSLog(@"adding button");
     }
     self.layer.cornerRadius = 10;
     self.layer.borderColor = [UIColor colorWithWhite:.6 alpha:1].CGColor;
