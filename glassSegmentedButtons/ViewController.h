@@ -11,5 +11,6 @@
 
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutlet SegmentedButton *segmentedButtonView;
+@property (strong, nonatomic) IBOutlet SegmentedButton *imageSegmentedButton;
 
 @end
