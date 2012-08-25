@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38201FFE15E88A50000153E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38201FFD15E88A50000153E5 /* UIKit.framework */; };
+		3820200015E88A50000153E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38201FFF15E88A50000153E5 /* Foundation.framework */; };
+		3820200215E88A50000153E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3820200115E88A50000153E5 /* CoreGraphics.framework */; };
+		3820200815E88A51000153E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3820200615E88A51000153E5 /* InfoPlist.strings */; };
+		3820200A15E88A51000153E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3820200915E88A51000153E5 /* main.m */; };
+		3820200E15E88A51000153E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3820200D15E88A51000153E5 /* AppDelegate.m */; };
+		3820201115E88A51000153E5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3820200F15E88A51000153E5 /* MainStoryboard.storyboard */; };
+		3820201415E88A51000153E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3820201315E88A51000153E5 /* ViewController.m */; };
+		3820201C15E88A51000153E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3820201B15E88A51000153E5 /* SenTestingKit.framework */; };
+		3820201D15E88A51000153E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38201FFD15E88A50000153E5 /* UIKit.framework */; };
+		3820201E15E88A51000153E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38201FFF15E88A50000153E5 /* Foundation.framework */; };
+		3820202615E88A51000153E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3820202415E88A51000153E5 /* InfoPlist.strings */; };
+		3820202915E88A51000153E5 /* glassSegmentedButtonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3820202815E88A51000153E5 /* glassSegmentedButtonsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3820201F15E88A51000153E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38201FF015E88A50000153E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38201FF815E88A50000153E5;
+			remoteInfo = glassSegmentedButtons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38201FF915E88A50000153E5 /* glassSegmentedButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glassSegmentedButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38201FFD15E88A50000153E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38201FFF15E88A50000153E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3820200115E88A50000153E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3820200515E88A51000153E5 /* glassSegmentedButtons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "glassSegmentedButtons-Info.plist"; sourceTree = "<group>"; };
+		3820200715E88A51000153E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3820200915E88A51000153E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3820200B15E88A51000153E5 /* glassSegmentedButtons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "glassSegmentedButtons-Prefix.pch"; sourceTree = "<group>"; };
+		3820200C15E88A51000153E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3820200D15E88A51000153E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3820201015E88A51000153E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3820201215E88A51000153E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3820201315E88A51000153E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3820201A15E88A51000153E5 /* glassSegmentedButtonsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glassSegmentedButtonsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3820201B15E88A51000153E5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3820202315E88A51000153E5 /* glassSegmentedButtonsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "glassSegmentedButtonsTests-Info.plist"; sourceTree = "<group>"; };
+		3820202515E88A51000153E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3820202715E88A51000153E5 /* glassSegmentedButtonsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glassSegmentedButtonsTests.h; sourceTree = "<group>"; };
+		3820202815E88A51000153E5 /* glassSegmentedButtonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = glassSegmentedButtonsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38201FF615E88A50000153E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38201FFE15E88A50000153E5 /* UIKit.framework in Frameworks */,
+				3820200015E88A50000153E5 /* Foundation.framework in Frameworks */,
+				3820200215E88A50000153E5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3820201615E88A51000153E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3820201C15E88A51000153E5 /* SenTestingKit.framework in Frameworks */,
+				3820201D15E88A51000153E5 /* UIKit.framework in Frameworks */,
+				3820201E15E88A51000153E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38201FEE15E88A50000153E5 = {
+			isa = PBXGroup;
+			children = (
+				3820200315E88A50000153E5 /* glassSegmentedButtons */,
+				3820202115E88A51000153E5 /* glassSegmentedButtonsTests */,
+				38201FFC15E88A50000153E5 /* Frameworks */,
+				38201FFA15E88A50000153E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38201FFA15E88A50000153E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38201FF915E88A50000153E5 /* glassSegmentedButtons.app */,
+				3820201A15E88A51000153E5 /* glassSegmentedButtonsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38201FFC15E88A50000153E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38201FFD15E88A50000153E5 /* UIKit.framework */,
+				38201FFF15E88A50000153E5 /* Foundation.framework */,
+				3820200115E88A50000153E5 /* CoreGraphics.framework */,
+				3820201B15E88A51000153E5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3820200315E88A50000153E5 /* glassSegmentedButtons */ = {
+			isa = PBXGroup;
+			children = (
+				3820200C15E88A51000153E5 /* AppDelegate.h */,
+				3820200D15E88A51000153E5 /* AppDelegate.m */,
+				3820200F15E88A51000153E5 /* MainStoryboard.storyboard */,
+				3820201215E88A51000153E5 /* ViewController.h */,
+				3820201315E88A51000153E5 /* ViewController.m */,
+				3820200415E88A51000153E5 /* Supporting Files */,
+			);
+			path = glassSegmentedButtons;
+			sourceTree = "<group>";
+		};
+		3820200415E88A51000153E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3820200515E88A51000153E5 /* glassSegmentedButtons-Info.plist */,
+				3820200615E88A51000153E5 /* InfoPlist.strings */,
+				3820200915E88A51000153E5 /* main.m */,
+				3820200B15E88A51000153E5 /* glassSegmentedButtons-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3820202115E88A51000153E5 /* glassSegmentedButtonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3820202715E88A51000153E5 /* glassSegmentedButtonsTests.h */,
+				3820202815E88A51000153E5 /* glassSegmentedButtonsTests.m */,
+				3820202215E88A51000153E5 /* Supporting Files */,
+			);
+			path = glassSegmentedButtonsTests;
+			sourceTree = "<group>";
+		};
+		3820202215E88A51000153E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3820202315E88A51000153E5 /* glassSegmentedButtonsTests-Info.plist */,
+				3820202415E88A51000153E5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38201FF815E88A50000153E5 /* glassSegmentedButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3820202C15E88A51000153E5 /* Build configuration list for PBXNativeTarget "glassSegmentedButtons" */;
+			buildPhases = (
+				38201FF515E88A50000153E5 /* Sources */,
+				38201FF615E88A50000153E5 /* Frameworks */,
+				38201FF715E88A50000153E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glassSegmentedButtons;
+			productName = glassSegmentedButtons;
+			productReference = 38201FF915E88A50000153E5 /* glassSegmentedButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3820201915E88A51000153E5 /* glassSegmentedButtonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3820202F15E88A51000153E5 /* Build configuration list for PBXNativeTarget "glassSegmentedButtonsTests" */;
+			buildPhases = (
+				3820201515E88A51000153E5 /* Sources */,
+				3820201615E88A51000153E5 /* Frameworks */,
+				3820201715E88A51000153E5 /* Resources */,
+				3820201815E88A51000153E5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3820202015E88A51000153E5 /* PBXTargetDependency */,
+			);
+			name = glassSegmentedButtonsTests;
+			productName = glassSegmentedButtonsTests;
+			productReference = 3820201A15E88A51000153E5 /* glassSegmentedButtonsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38201FF015E88A50000153E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Keiran Paster";
+			};
+			buildConfigurationList = 38201FF315E88A50000153E5 /* Build configuration list for PBXProject "glassSegmentedButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38201FEE15E88A50000153E5;
+			productRefGroup = 38201FFA15E88A50000153E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38201FF815E88A50000153E5 /* glassSegmentedButtons */,
+				3820201915E88A51000153E5 /* glassSegmentedButtonsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38201FF715E88A50000153E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3820200815E88A51000153E5 /* InfoPlist.strings in Resources */,
+				3820201115E88A51000153E5 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3820201715E88A51000153E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3820202615E88A51000153E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3820201815E88A51000153E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38201FF515E88A50000153E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3820200A15E88A51000153E5 /* main.m in Sources */,
+				3820200E15E88A51000153E5 /* AppDelegate.m in Sources */,
+				3820201415E88A51000153E5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3820201515E88A51000153E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3820202915E88A51000153E5 /* glassSegmentedButtonsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3820202015E88A51000153E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38201FF815E88A50000153E5 /* glassSegmentedButtons */;
+			targetProxy = 3820201F15E88A51000153E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3820200615E88A51000153E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3820200715E88A51000153E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3820200F15E88A51000153E5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3820201015E88A51000153E5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		3820202415E88A51000153E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3820202515E88A51000153E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3820202A15E88A51000153E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3820202B15E88A51000153E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3820202D15E88A51000153E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glassSegmentedButtons/glassSegmentedButtons-Prefix.pch";
+				INFOPLIST_FILE = "glassSegmentedButtons/glassSegmentedButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3820202E15E88A51000153E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glassSegmentedButtons/glassSegmentedButtons-Prefix.pch";
+				INFOPLIST_FILE = "glassSegmentedButtons/glassSegmentedButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3820203015E88A51000153E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/glassSegmentedButtons.app/glassSegmentedButtons";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glassSegmentedButtons/glassSegmentedButtons-Prefix.pch";
+				INFOPLIST_FILE = "glassSegmentedButtonsTests/glassSegmentedButtonsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3820203115E88A51000153E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/glassSegmentedButtons.app/glassSegmentedButtons";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "glassSegmentedButtons/glassSegmentedButtons-Prefix.pch";
+				INFOPLIST_FILE = "glassSegmentedButtonsTests/glassSegmentedButtonsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38201FF315E88A50000153E5 /* Build configuration list for PBXProject "glassSegmentedButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3820202A15E88A51000153E5 /* Debug */,
+				3820202B15E88A51000153E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3820202C15E88A51000153E5 /* Build configuration list for PBXNativeTarget "glassSegmentedButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3820202D15E88A51000153E5 /* Debug */,
+				3820202E15E88A51000153E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3820202F15E88A51000153E5 /* Build configuration list for PBXNativeTarget "glassSegmentedButtonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3820203015E88A51000153E5 /* Debug */,
+				3820203115E88A51000153E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38201FF015E88A50000153E5 /* Project object */;
+}
