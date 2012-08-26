@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3805B03715E93D49005BA854 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3805B03615E93D49005BA854 /* settings.png */; };
 		3805B03915E93D54005BA854 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3805B03815E93D54005BA854 /* settings@2x.png */; };
+		3812D35A15EAA46300FC5FBC /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 3812D35915EAA46300FC5FBC /* readme.md */; };
 		38201FFE15E88A50000153E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38201FFD15E88A50000153E5 /* UIKit.framework */; };
 		3820200015E88A50000153E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38201FFF15E88A50000153E5 /* Foundation.framework */; };
 		3820200215E88A50000153E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3820200115E88A50000153E5 /* CoreGraphics.framework */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		3805B03615E93D49005BA854 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		3805B03815E93D54005BA854 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		3812D35915EAA46300FC5FBC /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
 		38201FF915E88A50000153E5 /* glassSegmentedButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glassSegmentedButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38201FFD15E88A50000153E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		38201FFF15E88A50000153E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,6 +93,7 @@
 		38201FEE15E88A50000153E5 = {
 			isa = PBXGroup;
 			children = (
+				3812D35915EAA46300FC5FBC /* readme.md */,
 				3805B03615E93D49005BA854 /* settings.png */,
 				3805B03815E93D54005BA854 /* settings@2x.png */,
 				3820200315E88A50000153E5 /* glassSegmentedButtons */,
@@ -241,6 +244,7 @@
 				3820201115E88A51000153E5 /* MainStoryboard.storyboard in Resources */,
 				3805B03715E93D49005BA854 /* settings.png in Resources */,
 				3805B03915E93D54005BA854 /* settings@2x.png in Resources */,
+				3812D35A15EAA46300FC5FBC /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
