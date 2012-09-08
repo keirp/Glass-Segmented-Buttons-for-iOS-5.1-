@@ -8,7 +8,8 @@
 
 1. Import "SegmentedButton.h" into your view controller.
 2. In interface builder, put a UIView into your view controller and change it's class to SegmentedButton.
-3. In your view controller in the viewDidLoad method, set the button up either using UIImages or NSStrings.
+3. Be sure to import the QuartzCore framework into your project.
+4. In your view controller in the viewDidLoad method, set the button up either using UIImages or NSStrings.
 
 #### Example Code:
 	[segmentedButtonView initWithTitles:[NSArray arrayWithObjects:@"1", @"2", @"3", @"4", @"5", nil] 
